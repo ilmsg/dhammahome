@@ -1,4 +1,4 @@
-# This is the default format. 
+Ôªø# This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
 permalink: /:categories/:year/:month/:day/:title 
 
@@ -9,8 +9,8 @@ pygments: true
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : ´’√’Ë¬Ï »÷°…“∏√√¡–
-tagline: √“¬°“√∫È“π∏—¡¡– ‚¥¬ Õ. ÿ®‘πµÏ ∫√‘À“√«π‡¢µµÏ
+title : ‡∏ã‡∏µ‡∏£‡∏µ‡πà‡∏¢‡πå ‡∏®‡∏∂‡∏Å‡∏©‡∏≤‡∏ò‡∏£‡∏£‡∏°‡∏∞
+tagline: ‡∏£‡∏≤‡∏¢‡∏Å‡∏≤‡∏£‡∏ö‡πâ‡∏≤‡∏ô‡∏ò‡∏±‡∏°‡∏°‡∏∞ ‡πÇ‡∏î‡∏¢ ‡∏≠.‡∏™‡∏∏‡∏à‡∏¥‡∏ô‡∏ï‡πå ‡∏ö‡∏£‡∏¥‡∏´‡∏≤‡∏£‡∏ß‡∏ô‡πÄ‡∏Ç‡∏ï‡∏ï‡πå
 author :
   name : Eak Netpanya
   email : eak.netpanya@ilmsg.com
