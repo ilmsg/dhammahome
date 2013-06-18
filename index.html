@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html ng-app="dhammahome">
+    <head>
+        <meta charset="utf-8" />
+        <title>AngularJS Plunker</title>
+        <script>document.write('<base href="' + document.location + '" />');</script>
+        <link data-require="bootstrap-css" data-semver="2.3.2" rel="stylesheet" href="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/css/bootstrap-combined.min.css" />
+        <script data-require="jquery" data-semver="2.0.1" src="http://code.jquery.com/jquery-2.0.1.min.js"></script>
+        <script data-require="bootstrap" data-semver="2.3.2" src="//netdna.bootstrapcdn.com/twitter-bootstrap/2.3.2/js/bootstrap.min.js"></script>
+        
+        <script data-require="angular.js@1.1.x" src="http://code.angularjs.org/1.1.5/angular.min.js" data-semver="1.1.5"></script>
+        <script src="app.js"></script>
+        <script src="./audiojs/audio.min.js"></script>
+        <script>
+			audiojs.events.ready(function() {
+			audiojs.createAll();
+        });
+        </script>
+    </head>
+    <body ng-controller="MainCtrl">
+	    <div class="container">
+            <h3>ชุด ๘๕ ธรรมเตือนใจ ปี ๒๕๕๔</h3>
+            <p>อ.สุจินต์ บริหารวนเขตต์ - เสียง : บรรยายธรรม (ขึ้นเว็บไซต์ ๙ กรกฎาคม ๒๕๕๕)</p>
+            <table class="">
+	            <tbody>
+    		        <tr ng-repeat="item in mp3_lists">
+            			<td style="width:10%; text-align:right;"><audio ng-src="{{mp3_folder + item.file}}" preload="none" type="audio/mp3"></audio></td>
+			            <td style="text-align:left;"><span>{{item.title}}</span></td>
+		            </tr>
+        	    </tbody>
+            </table>
+        </div>
+    </body>
+</html>
