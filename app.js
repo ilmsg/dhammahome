@@ -1,7 +1,7 @@
 var app = angular.module('dhammahome', []);
 
 app.controller('MainCtrl', function($scope) {
-	$scope.mp3_folder = 'mp3/';
+	$scope.mp3_folder = './mp3/';
 	$scope.mp3_lists = [];
 	
 	$scope.mp3_lists.push({title: 'กล่าวเกริ่นนำ', file:'00 กล่าวเกริ่นนำ ธ.ต.mp3'});
