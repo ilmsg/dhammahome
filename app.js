@@ -12,6 +12,6 @@ app.controller('MainCtrl', function($scope) {
 	$scope.mp3_lists.push({title: 'กล่าวปิดท้าย ธรรมเตือนใจ', file:'00 กล่าวเกริ่นนำ ธ.ต.mp3'});
   
 	function addZ(n) {
-		return (n<10? '00' : n<100? '0' : '') + n;
+		return (n<10? '0' : n<100? '0' : '') + n;
 	}
 });
